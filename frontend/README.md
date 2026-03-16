@@ -1,16 +1,97 @@
-# React + Vite
+# 🎨 Cerevo Frontend – Career Guidance Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the **frontend implementation** of the Cerevo Career Guidance and Recommendation System.
 
-Currently, two official plugins are available:
+The frontend provides an interactive interface where students can explore career paths, receive AI recommendations, and interact with the career assistant.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+# 🛠 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Technology | Purpose |
+|-----------|--------|
+| ReactJS | Frontend framework |
+| Vite | Fast development environment |
+| JavaScript | Application logic |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| Axios | API communication |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# ⭐ Features
+
+- Interactive dashboard
+- AI-based career recommendation interface
+- Career roadmap visualization
+- AI career assistant chat interface
+- Responsive UI design
+
+---
+
+# 🖥 Screens
+
+| Feature | Description |
+|-------|-------------|
+| Dashboard | Explore career domains |
+| Recommendations | View suggested careers |
+| AI Assistant | Ask career-related questions |
+| Roadmaps | View career progression steps |
+
+---
+
+# 📂 Project Structure
+
+
+frontend
+
+├── public
+├── src
+│ ├── components
+│ ├── pages
+│ ├── assets
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+# ⚙ Installation
+
+
+cd frontend
+npm install
+
+
+---
+
+# 🚀 Run Development Server
+
+
+npm run dev
+
+
+Application will run at:
+
+
+http://localhost:5173
+
+
+---
+
+# 🔗 Backend Communication
+
+Frontend communicates with the backend APIs to:
+
+- Fetch career recommendations
+- Generate career roadmaps
+- Interact with AI assistant
+- Download PDF reports
+
+---
+
