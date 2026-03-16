@@ -73,12 +73,18 @@ npm install
 
 
 
+
 ---
 
-# Fix for Running the Project
+## 2️⃣ Fix the “Run Development Server” Section
+Your preview shows mixed markdown text inside the code block. It should be separated.
+
+Use this:
 
 ```markdown
 ## 🚀 Run Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -90,16 +96,19 @@ Application will run at:
 http://localhost:5173
 
 
+
 ---
 
-# 🔗 Backend Communication
+## 3️⃣ Clean the Bottom Section (Backend Communication)
+Your preview shows some markdown text inside the code block accidentally. Replace with:
 
-Frontend communicates with the backend APIs to:
+```markdown
+## 🔗 Backend Communication
+
+Frontend communicates with the FastAPI backend APIs to:
 
 - Fetch career recommendations
 - Generate career roadmaps
 - Interact with AI assistant
-- Download PDF reports
-
----
+- Download PDF career reports
 
