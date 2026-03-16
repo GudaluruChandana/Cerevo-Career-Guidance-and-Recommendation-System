@@ -61,20 +61,26 @@ frontend
 └── README.md
 ```
 
-# ⚙ Installation
+## ⚙ Installation
 
 Navigate to the frontend directory:
+
+```bash
 cd frontend
 
 Install dependencies:
 npm install
 
 
+
 ---
 
-# 🚀 Run Development Server
+# Fix for Running the Project
 
+```markdown
+## 🚀 Run Development Server
 
+```bash
 npm run dev
 
 
