@@ -40,7 +40,7 @@ The frontend provides an interactive interface where students can explore career
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 
 
@@ -64,8 +64,10 @@ frontend
 
 # ⚙ Installation
 
-
+Navigate to the frontend directory:
 cd frontend
+
+Install dependencies:
 npm install
 
 
