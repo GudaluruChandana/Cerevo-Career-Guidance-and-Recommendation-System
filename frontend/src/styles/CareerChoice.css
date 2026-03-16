@@ -1,0 +1,93 @@
+.choice-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 60px 20px;
+  font-family: "Segoe UI", sans-serif;
+  color: white;
+}
+
+.choice-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.choice-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.choice-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Cards Layout */
+.choice-cards {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+/* Card */
+.choice-card {
+  background: white;
+  color: #333;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choice-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.choice-card p {
+  color: #555;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Button */
+.choice-card button {
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choice-card button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #009df0, #005ce6);
+}
+
+/* Hover Card */
+.choice-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.3);
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

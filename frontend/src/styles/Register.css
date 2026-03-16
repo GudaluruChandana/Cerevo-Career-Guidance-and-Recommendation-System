@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.register-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 1s ease-in;
+}
+
+.register-card {
+  width: 900px;
+  background: white;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  animation: slideUp 1s ease;
+}
+
+/* Left Image */
+.register-left {
+  width: 50%;
+  background: #f4f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-left img {
+  width: 90%;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Right Form */
+.register-right {
+  width: 50%;
+  padding: 50px;
+}
+
+.register-right h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.register-right p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 14px;
+  background: #6a5af9;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background: #5848e5;
+  transform: scale(1.03);
+}
+
+.login-text {
+  margin-top: 20px;
+  color: #555;
+}
+
+.login-text span {
+  color: #6a5af9;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}

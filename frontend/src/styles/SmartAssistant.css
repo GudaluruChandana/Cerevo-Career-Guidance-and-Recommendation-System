@@ -1,0 +1,174 @@
+/* Page */
+.smart-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3340b6, #c33764);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+/* Main Box */
+.smart-box {
+  background: white;
+  width: 100%;
+  max-width: 550px;
+  height: 700px;
+  border-radius: 25px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+/* Header */
+.smart-box h1 {
+  background: linear-gradient(135deg, #616fee, #d83c6d);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+/* Chat Area */
+.chat-area {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background: #f4f6fb;
+}
+
+
+/* Messages */
+.msg {
+  max-width: 80%;
+  padding: 12px 18px;
+  border-radius: 18px;
+  margin-bottom: 15px;
+  animation: fadeIn 0.3s ease;
+  line-height: 1.4;
+}
+
+.msg p {
+  margin: 3px 0;
+}
+
+
+/* User */
+.msg.user {
+  background: #8064e6;
+  color: white;
+  margin-left: auto;
+}
+
+
+/* AI */
+.msg.ai {
+  background: #e0e0e0;
+  color: #333;
+  margin-right: auto;
+}
+
+
+/* Input Area */
+.input-area {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  gap: 8px;
+}
+
+
+
+.input-area input {
+  flex: 1 1 auto;   /* grow + shrink */
+  width: 100%;
+  min-width: 200px; /* never too small */
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  height: 44px;
+}
+
+
+/* Buttons */
+.send-btn,
+.mic-btn,
+.stop-btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+}
+
+
+/* Send */
+.send-btn {
+  background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+
+/* Mic */
+.mic-btn {
+  background: linear-gradient(135deg, #0dacbb, #52c5e5);
+  font-size: 18px;
+}
+
+.mic-btn.active {
+  background: red;
+}
+
+
+/* Stop */
+.stop-btn {
+  background: #bf3939;
+}
+
+
+/* Hover */
+.send-btn:hover,
+.mic-btn:hover,
+.stop-btn:hover {
+  transform: scale(1.05);
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* Speak Button */
+.speak-btn {
+  margin-top: 8px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  background:linear-gradient(135deg, #b97bdb, #3b1350);
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.speak-btn:hover {
+  background: #4338ca;
+  transform: scale(1.05);
+}
+

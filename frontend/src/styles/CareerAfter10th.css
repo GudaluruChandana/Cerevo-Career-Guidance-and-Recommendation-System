@@ -1,0 +1,269 @@
+.career10-container {
+  min-height: 100vh;
+  background: #f1f2f5;
+  padding: 60px 30px;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+
+.career10-hero {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  animation: fadeIn 1s ease;
+}
+
+.career10-hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+  color: #2b2b2b;
+}
+
+.career10-hero p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* ===============================
+   RECOMMEND BUTTON
+================================ */
+
+.recommend-btn {
+  padding: 14px 38px;
+  border-radius: 40px;
+  border: none;
+  font-size: 1.28rem;
+  background: linear-gradient(135deg, #6a5cff, #8f6bff);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 12px 28px rgba(106,92,255,0.35);
+}
+
+.recommend-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 38px rgba(106,92,255,0.5);
+}
+
+/* ===============================
+   STREAM SECTION
+================================ */
+
+.streams-section {
+  margin-top: 90px;
+}
+
+.streams-section h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 55px;
+  color: #2b2b2b;
+}
+
+.streams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+}
+
+/* ===============================
+   STREAM CARD BASE
+================================ */
+
+.stream-card {
+  border-radius: 22px;
+  padding: 34px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+  color: white;
+  animation: cardFade 0.7s ease forwards;
+}
+
+.stream-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.18);
+}
+
+/* ===============================
+   COLOR VARIANTS
+================================ */
+
+.stream-card.blue {
+  background: linear-gradient(135deg, #5f72ff, #38bdf8);
+}
+
+.stream-card.green {
+  background: linear-gradient(135deg, #00c9a7, #06d6a0);
+}
+
+.stream-card.purple {
+  background: linear-gradient(135deg, #9b5de5, #c77dff);
+}
+
+.stream-card.orange {
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+}
+
+.stream-card.pink {
+  background: linear-gradient(135deg, #f15bb5, #ff70a6);
+}
+
+/* ===============================
+   KEEP COLORS ON HOVER
+================================ */
+
+.stream-card.blue:hover {
+  background: linear-gradient(135deg, #5f72ff, #38bdf8);
+}
+
+.stream-card.green:hover {
+  background: linear-gradient(135deg, #00c9a7, #06d6a0);
+}
+
+.stream-card.purple:hover {
+  background: linear-gradient(135deg, #9b5de5, #c77dff);
+}
+
+.stream-card.orange:hover {
+  background: linear-gradient(135deg, #ffb703, #fb8500);
+}
+
+.stream-card.pink:hover {
+  background: linear-gradient(135deg, #f15bb5, #ff70a6);
+}
+
+/* ===============================
+   CARD CONTENT
+================================ */
+
+.stream-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.stream-card p {
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+/* TAGS */
+
+.stream-tags span {
+  background: rgba(255,255,255,0.22);
+  padding: 7px 16px;
+  border-radius: 20px;
+  margin-right: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* CAREER LIST */
+
+.stream-careers {
+  margin-top: 18px;
+}
+
+.stream-careers span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ===============================
+   EXPLORE BUTTON
+================================ */
+
+.stream-card button {
+  margin-top: 22px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background: white;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.stream-card button:hover {
+  transform: translateY(-3px);
+  background: #f5f5ff;
+}
+
+/* ===============================
+   WHY SECTION
+================================ */
+
+.why-section {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.why-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 45px;
+  color: #2b2b2b;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+/* ===============================
+   WHY SECTION CARDS (FINAL)
+================================ */
+
+.why-card {
+  background: linear-gradient(135deg, #cfd6ed, #f5f3ff);
+  padding: 28px;
+  border-radius: 20px;
+  font-size: 1.05rem;
+  color: #2b2b2b;
+  box-shadow: 0 15px 30px rgba(106,92,255,0.15);
+  transition: all 0.35s ease;
+  text-align: center;
+  font-weight: 500;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 45px rgba(106,92,255,0.25);
+}
+
+
+/* ===============================
+   ANIMATIONS
+================================ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cardFade {
+  from {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

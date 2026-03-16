@@ -1,0 +1,100 @@
+.inter-form-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d9ccff, #bfa6ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.inter-form-container {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+}
+
+.inter-form-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.inter-form-image img {
+  width: 420px;
+  border-radius: 25px;
+}
+
+.inter-form-card {
+  width: 60%;
+  padding: 50px;
+  overflow-y: auto;
+}
+
+
+.inter-form-card h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.inter-form-card p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.inter-form-card label {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+}
+
+
+.inter-form-card input,
+.inter-form-card select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+
+.chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.chip {
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chip.active {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+}
+
+
+.submit-btn {
+  margin-top: 30px;
+  width: 100%;
+  padding: 16px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(135deg, #ff7b54, #ff3c7e);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+

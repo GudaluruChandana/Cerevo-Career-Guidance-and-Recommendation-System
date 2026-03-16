@@ -1,0 +1,83 @@
+.career-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.career-card {
+  width: 900px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  animation: slideUp 0.8s ease;
+}
+
+.career-left {
+  width: 50%;
+  background: #f0fff7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.career-left img {
+  width: 85%;
+  animation: float 3s ease-in-out infinite;
+}
+
+.career-right {
+  width: 50%;
+  padding: 50px;
+}
+
+.career-right h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.career-right p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.career-right input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.career-right button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  background: #43cea2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.career-right button:hover {
+  background: #2bb18d;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}

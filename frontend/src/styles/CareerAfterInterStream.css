@@ -1,0 +1,165 @@
+body {
+  background: none !important;
+}
+
+/* ===============================
+   MAIN PAGE
+================================ */
+
+.inter-stream-page {
+  min-height: 100vh;
+  padding: 80px 60px;
+  background: linear-gradient(135deg,  #935787,  #8a5cf6);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 0.8s ease;
+}
+
+/* ===============================
+   PAGE TITLE
+================================ */
+
+.inter-stream-page h1 {
+  font-size: 3.2rem;
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* ===============================
+   SECTION BLOCK
+================================ */
+
+.inter-stream-section {
+  margin-bottom: 60px;
+  animation: slideUp 0.8s ease forwards;
+}
+
+.inter-stream-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffeaa7;
+}
+
+/* ===============================
+   PILLS GRID
+================================ */
+
+.pill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+/* ===============================
+   PILLS
+================================ */
+
+.pill-grid span {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  transition: all 0.35s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Effect */
+.pill-grid span:hover {
+  transform: translateY(-6px) scale(1.05);
+  background: rgba(255,255,255,0.28);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.35);
+}
+
+/* Glow on hover */
+.pill-grid span::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.pill-grid span:hover::after {
+  opacity: 1;
+}
+
+/* ===============================
+   AI BUTTON
+================================ */
+
+.ai-btn {
+  margin-top: 70px;
+  padding: 18px 46px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(90deg, #e86595, #d82384);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 15px 40px rgba(56,189,248,0.5);
+  transition: all 0.35s ease;
+  animation: pulseGlow 2.5s infinite;
+  width:400px;
+}
+
+/* Button Hover */
+.ai-btn:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 20px 55px rgba(95, 97, 184, 0.7);
+  /* background: linear-gradient(90deg, #60a5fa, #8b5cf6); */
+}
+
+/* ===============================
+   ANIMATIONS
+================================ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glow pulse for AI button */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(99,102,241,0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 25px rgba(99,102,241,0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(99,102,241,0);
+  }
+}

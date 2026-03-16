@@ -1,0 +1,41 @@
+.details-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 50px;
+  color: white;
+}
+
+.details-card {
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.details-card img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.details-text h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.details-text h2 {
+  margin-top: 25px;
+  color: #667eea;
+}
+
+.details-text ul,
+.details-text ol {
+  margin-left: 20px;
+}
+
+.details-text li {
+  margin-bottom: 8px;
+  font-size: 18px;
+}

@@ -1,0 +1,197 @@
+/* Page */
+
+.history-page {
+  min-height: 100vh;
+  padding: 40px 60px;
+  background: linear-gradient(135deg, #6462d5, #4975c0);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Title */
+
+.history-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+/* Top Actions */
+
+.history-actions {
+  display: flex;
+  /* justify-content: space-between; */
+
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto 25px;
+  gap: 12px;
+}
+
+
+/* Search */
+
+.history-actions input {
+  flex:1;
+  width: 250px;
+  padding: 10px 14px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  height:50px;
+}
+
+
+/* Clear Button */
+
+.clear-btn {
+  flex:0 0 auto;
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: none;
+  background: #de5757;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  width:auto;
+
+}
+
+.clear-btn:hover {
+  background: #e07878;
+}
+
+
+/* Table */
+
+.history-table {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  color: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+/* Header */
+
+.history-table thead {
+  background: linear-gradient(135deg,#a04ae2,#524fd6);
+  color: white;
+}
+
+.history-table th {
+  padding: 14px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+/* Body */
+
+.history-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+
+/* Row Hover */
+
+.history-table tbody tr:hover {
+  background: #eef2ff;
+}
+
+
+.delete-btn {
+  background: #fee2e2;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #dc2626;
+  transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+  background:linear-gradient(135deg, #6e3c8f,#b357d4);
+  color: white;
+  transform: scale(1.1);
+}
+
+
+/* Back Button */
+
+.back-btn {
+  display: block;
+  margin: 35px auto 0;
+  width: 180px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  background: #facc15;
+}
+
+
+
+
+/* FIX HISTORY */
+
+/* .history-actions {
+  display: flex;
+  gap: 12px;
+} */
+
+/* .history-actions input {
+  flex: 1;
+}
+
+.clear-btn {
+  width: auto;
+} */
+
+
+
+
+
+
+
+/* 🔥 FORCE FIX FOR HISTORY BUTTONS */
+
+/* .history-actions {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+}
+
+.history-actions input {
+  flex: 1 !important;
+  width: auto !important;
+}
+
+.clear-btn {
+  width: auto !important;
+  min-width: 140px !important;
+
+  flex: 0 0 auto !important;
+
+  height: 44px !important;
+  padding: 0 26px !important;
+} */

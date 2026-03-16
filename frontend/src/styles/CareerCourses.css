@@ -1,0 +1,61 @@
+.career-page {
+  min-height: 100vh;
+  padding: 50px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.career-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease;
+}
+
+.career-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.course-box {
+  background: white;
+  color: #333;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+  animation: slideUp 0.8s ease;
+}
+
+.course-box:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: #f3f4ff;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
