@@ -1,5 +1,3 @@
-<img width="939" height="920" alt="image" src="https://github.com/user-attachments/assets/a8fb3118-b561-42ab-bfcb-16105cf6e683" /># 🎓 Cerevo – AI Career Guidance and Recommendation System
-
 🚀 **Cerevo** is an AI-powered career recommendation platform designed to help students explore suitable career paths based on their interests, preferences, and academic background.
 
 The system integrates **Artificial Intelligence, recommendation techniques, and structured career roadmaps** to provide personalized career guidance for students.
