@@ -40,7 +40,8 @@ The frontend provides an interactive interface where students can explore career
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
+
 
 
 frontend
