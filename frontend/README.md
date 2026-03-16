@@ -65,50 +65,36 @@ frontend
 
 Navigate to the frontend directory:
 
-```bash
+```
 cd frontend
-
+```
 Install dependencies:
+```
 npm install
-
+```
 
 
 
 ---
-
-## 2️⃣ Fix the “Run Development Server” Section
-Your preview shows mixed markdown text inside the code block. It should be separated.
-
-Use this:
-
-```markdown
-## 🚀 Run Development Server
+🚀 Run Development Server
 
 Start the development server:
-
-```bash
+```
 npm run dev
-
-
+```
 Application will run at:
-
 
 http://localhost:5173
 
+🔗 Backend Communication
 
+The frontend communicates with the FastAPI backend APIs to:
 
----
+Fetch career recommendations
 
-## 3️⃣ Clean the Bottom Section (Backend Communication)
-Your preview shows some markdown text inside the code block accidentally. Replace with:
+Generate career roadmaps
 
-```markdown
-## 🔗 Backend Communication
+Interact with the AI assistant
 
-Frontend communicates with the FastAPI backend APIs to:
-
-- Fetch career recommendations
-- Generate career roadmaps
-- Interact with AI assistant
-- Download PDF career reports
+Download PDF career reports
 
