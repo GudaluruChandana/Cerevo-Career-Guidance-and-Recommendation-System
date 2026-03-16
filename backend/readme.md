@@ -33,7 +33,7 @@ The backend processes user inputs, generates career recommendations, manages aut
 
 # 📂 Project Structure
 
-
+```
 backend
 
 ├── assets
@@ -52,7 +52,7 @@ backend
 ├── pdf_generator.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
@@ -102,11 +102,4 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 👨‍💻 Authors
 
-| Name | Role |
-|-----|------|
-| G. Chandana | Backend Development |
-| G. Sravani | Backend Development |
-| K. Pravallika | AI Module |
-| S. Sinwan | Testing |
