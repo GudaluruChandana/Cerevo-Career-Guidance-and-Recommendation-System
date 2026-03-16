@@ -40,27 +40,26 @@ The frontend provides an interactive interface where students can explore career
 
 ---
 
-### 📂 Project Structure
+## 📂 Project Structure
 
-
-
+```
 frontend
-
+│
 ├── public
+│
 ├── src
-│ ├── components
-│ ├── pages
-│ ├── assets
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   ├── App.jsx
+│   └── main.jsx
 │
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
-
-
----
+```
 
 # ⚙ Installation
 
